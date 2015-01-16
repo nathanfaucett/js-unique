@@ -1,4 +1,4 @@
-intersection
+unique
 =======
 
-intersection for the browser and node.js
+unique for the browser and node.js
