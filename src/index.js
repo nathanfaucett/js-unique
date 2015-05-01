@@ -3,6 +3,13 @@ var indexOf = require("index_of"),
     fastSlice = require("fast_slice");
 
 
+module.exports = unique;
+
+
+function unique() {
+    return baseUnique(flattenArray(fastSlice(arguments), 1));
+}
+
 function baseUnique(array) {
     var localIndexOf = indexOf,
         i = -1,
@@ -22,8 +29,3 @@ function baseUnique(array) {
 
     return result;
 }
-
-
-module.exports = function unique() {
-    return baseUnique(flattenArray(fastSlice(arguments), 1));
-};
