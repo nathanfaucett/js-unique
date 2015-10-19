@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "index_of": "git://github.com/nathanfaucett/index_of.git",
-    "fast_slice": "git://github.com/nathanfaucett/fast_slice.git",
     "flatten_array": "git://github.com/nathanfaucett/flatten_array.git"
   }
 }

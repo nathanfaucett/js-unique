@@ -1,13 +1,12 @@
 var indexOf = require("index_of"),
-    flattenArray = require("flatten_array"),
-    fastSlice = require("fast_slice");
+    flattenArray = require("flatten_array");
 
 
 module.exports = unique;
 
 
 function unique() {
-    return baseUnique(flattenArray(fastSlice(arguments), 1));
+    return baseUnique(flattenArray(arguments, 1));
 }
 
 function baseUnique(array) {
