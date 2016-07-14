@@ -1,5 +1,5 @@
-var indexOf = require("index_of"),
-    flattenArray = require("flatten_array");
+var indexOf = require("@nathanfaucett/index_of"),
+    flattenArray = require("@nathanfaucett/flatten_array");
 
 
 module.exports = unique;

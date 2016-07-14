@@ -1,4 +1,4 @@
 unique
 =======
 
-unique for the browser and node.js
+returns array of unique values from array
